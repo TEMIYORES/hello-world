@@ -1,6 +1,9 @@
 import './App.css';
+// import './appStyles.css'
+// import styles from './appStyles.module.css'
+// import Inline from './components/Inline';
 // import NameList from './components/NameList';
-import Stylesheet from './components/Stylesheet';
+// import Stylesheet from './components/Stylesheet';
 // import UserGreeting from './components/UserGreeting';
 // import ClassClick from './components/ClassClick';
 // import EventBind from './components/EventBind';
@@ -15,6 +18,8 @@ import Stylesheet from './components/Stylesheet';
 function App() {
   return (
     <div className="App">
+    {/* <h3 className="error">Error</h3> */}
+    {/* <h3 className={styles.success}>success</h3> */}
        {/* <Greet name="Bruce" heroName="batman">
         This is a child component
       </Greet> */}
@@ -42,7 +47,8 @@ function App() {
 
       {/* <NameList/> */}
 
-      <Stylesheet primary={true}/>
+      {/* <Stylesheet primary={true}/> */}
+      {/* <Inline/> */}
     </div>
   );
 }
