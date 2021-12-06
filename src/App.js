@@ -1,23 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
+// import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+// import UserGreeting from './components/UserGreeting';
+// import ClassClick from './components/ClassClick';
+// import EventBind from './components/EventBind';
+// import ParentComponent from './components/ParentComponent';
+// import Counter from './components/Counter';
+// import FunctionClick from './components/FunctionClick';
+// import Greet from './components/Greet'
+// import Welcome from './components/welcome'
+// import {Hello} from './components/hello'
+// import Message from './components/Message'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       {/* <Greet name="Bruce" heroName="batman">
+        This is a child component
+      </Greet> */}
+      {/*
+      <Greet name="Clark" heroName="superman">
+        <button>Action</button>
+      </Greet>
+      <Greet name="Diana" heroName="Wonder Woman" />
+      <Welcome name="Bruce" heroName="batman" />
+      <Welcome name="Clark" heroName="superman" />
+      <Welcome name="Diana" heroName="Wonder Woman" /> */}
+      {/* <Hello /> 
+      <Message/> */}
+
+      {/* <Counter/> */}
+
+      {/* <FunctionClick />
+      <ClassClick/> */}
+
+      {/* <EventBind/> */}
+
+      {/* <ParentComponent/> */}
+
+      {/* <UserGreeting/> */}
+
+      {/* <NameList/> */}
+
+      <Stylesheet primary={true}/>
     </div>
   );
 }
